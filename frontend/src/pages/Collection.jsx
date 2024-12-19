@@ -82,7 +82,7 @@ const Collection = () => {
       
       {/* Filter Options */}
       <div className='min-w-60'>
-        <p onClick={()=> setShowFilter(!showFilter)} className='my-2 text-x1 flex items-center cursor-pointer gap-2'>FILTERS</p>
+        <p onClick={()=> setShowFilter(!showFilter)} className='my-2 text-xl flex items-center cursor-pointer gap-2'>FILTERS</p>
         <img className={`h-3 sm:hidden ${showFilter ? 'rotate-90' : ''}`} src={assets.dropdown_icon} alt="" />
 
         {/* Category Filter */}
@@ -120,7 +120,7 @@ const Collection = () => {
 
       {/* Right Side */}
       <div className='flex-1'>
-        <div className='flex justify-between text-base sm:text-2x1 mb-4'>
+        <div className='flex justify-between text-base sm:text-2xl mb-4'>
           <Title text1={'ALL'} text2={'COLLECTIONS'}/>
 
           {/* Product Sort */}

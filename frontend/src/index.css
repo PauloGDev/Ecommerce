@@ -11,7 +11,9 @@ a.active hr{
 *{
     font-family: "Poppins", sans-serif;
 }
-
+.font-medium{
+  font-weight: 500;
+}
 .poppins-thin {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
@@ -120,7 +122,10 @@ a.active hr{
     font-style: italic;
   }
   
-  
+  ::-webkit-scrollbar{
+    display: none;
+  }
+
   @media(max-width: 640px){
     a.active{
         background-color: black;
